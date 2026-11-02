@@ -1,0 +1,16 @@
+# Surge writes this on every deploy
+site/CNAME
+
+# macOS
+.DS_Store
+
+# editors
+.vscode/
+.idea/
+
+# local agent workspace
+.workbuddy-ai/
+
+# local preview
+*.log
+node_modules/

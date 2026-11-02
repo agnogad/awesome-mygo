@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Awesome MyGo — native desktop apps built with Go</title>
+<meta name="description" content="A curated, searchable index of desktop apps, tools and UI kits built with MyGo — native Go UI drawn on the GPU, no webview.">
+<meta name="theme-color" content="#08090c">
+<meta property="og:title" content="Awesome MyGo">
+<meta property="og:description" content="250 open-source desktop apps, tools and UI kits built with MyGo — native Go UI, drawn on the GPU.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://awesome-mygo.surge.sh/">
+<meta property="og:image" content="https://awesome-mygo.surge.sh/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Awesome MyGo">
+<meta name="twitter:description" content="250 open-source desktop apps, tools and UI kits built with MyGo.">
+<meta name="twitter:image" content="https://awesome-mygo.surge.sh/og.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%236ee7ff'/%3E%3Cpath d='M8 22V10l8 7 8-7v12' stroke='%2308090c' stroke-width='3' fill='none' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#list">Skip to the list</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="./" aria-label="Awesome MyGo home">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="9" fill="url(#brandGrad)"/>
+        <path d="M8 22V10l8 7 8-7v12" stroke="#08090c" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+        <defs>
+          <linearGradient id="brandGrad" x1="0" y1="0" x2="32" y2="32">
+            <stop offset="0" stop-color="#6ee7ff"/><stop offset="1" stop-color="#a78bfa"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <span class="brand-text">Awesome <b>MyGo</b></span>
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <a class="nav-link" href="#list">Browse</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link nav-link--gh" href="https://github.com/agnogad/awesome-mygo" target="_blank" rel="noopener" id="repo-nav">
+        <svg viewBox="0 0 16 16" aria-hidden="true" class="gh-icon"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+        GitHub
+      </a>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch theme">
+        <svg class="ico ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M18.7 5.3l-1.6 1.6M6.9 17.1l-1.6 1.6"/></g></svg>
+        <svg class="ico ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.5 14.6A8.6 8.6 0 0 1 9.4 3.5a8.6 8.6 0 1 0 11.1 11.1Z"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <p class="eyebrow"><span class="pulse"></span><span id="hero-count">250</span> open-source projects · <span id="hero-stars">6.1k</span> stars</p>
+    <h1>Native desktop apps,<br><span class="grad">built with Go.</span></h1>
+    <p class="lede">Everything in this index is built with <a href="https://github.com/egoist/mygo" target="_blank" rel="noopener">MyGo</a> — a Go toolkit that draws its own widgets on the GPU. No HTML, no JavaScript, no webview.</p>
+
+    <div class="search" role="search">
+      <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>
+      <input id="q" type="search" placeholder="Search projects, tools, keywords…" autocomplete="off" spellcheck="false" aria-label="Search projects">
+      <kbd class="kbd" aria-hidden="true">/</kbd>
+      <button class="search-clear" id="clear" type="button" aria-label="Clear search" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+
+    <div class="quick" aria-label="Suggested searches">
+      <span class="quick-label">Try</span>
+      <button type="button" data-q="agent">agent</button>
+      <button type="button" data-q="music">music</button>
+      <button type="button" data-q="git">git</button>
+      <button type="button" data-q="proxy">proxy</button>
+      <button type="button" data-q="terminal">terminal</button>
+      <button type="button" data-q="clipboard">clipboard</button>
+    </div>
+  </section>
+
+  <section class="wrap list-section" id="list">
+    <div class="toolbar" id="toolbar">
+      <div class="chips" id="chips" role="tablist" aria-label="Filter by category"></div>
+      <div class="toolbar-end">
+        <span class="count" id="count" aria-live="polite"></span>
+        <label class="sort">
+          <span>Sort</span>
+          <select id="sort">
+            <option value="stars">Most starred</option>
+            <option value="updated">Recently updated</option>
+            <option value="name">A–Z</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <p class="section-note" id="section-note" hidden></p>
+    <div class="grid" id="grid"></div>
+
+    <div class="empty" id="empty" hidden>
+      <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="28" cy="28" r="16" fill="none" stroke="currentColor" stroke-width="2.5" opacity=".5"/><path d="m40 40 12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity=".5"/><path d="M22 28h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" opacity=".3"/></svg>
+      <h3>Nothing matches that search</h3>
+      <p id="empty-text">Try a shorter keyword, or clear the filters.</p>
+      <button type="button" class="btn" id="reset">Reset filters</button>
+    </div>
+  </section>
+
+  <section class="wrap about" id="about">
+    <div class="about-copy">
+      <p class="eyebrow eyebrow--plain">About this list</p>
+      <h2>A small index of a growing ecosystem.</h2>
+      <p>MyGo apps are ordinary Go programs. They compile to a single binary of a few megabytes, open instantly, and can mix native widgets with a web view in the same window. That combination turns out to be good for the kind of tool you keep open all day: terminals, agent dashboards, music players, menu-bar utilities.</p>
+      <p>Every project here links to a public repository. Star counts and licenses were refreshed from the GitHub API on <strong>2 November 2026</strong>. Five repositories from the original research had been deleted or made private by then and are not listed.</p>
+      <div class="about-actions">
+        <a class="btn btn--primary" href="https://github.com/egoist/mygo" target="_blank" rel="noopener">Get started with MyGo</a>
+        <a class="btn" href="https://github.com/" target="_blank" rel="noopener" id="contrib-link">Add a project</a>
+      </div>
+    </div>
+    <aside class="about-card" aria-label="List statistics">
+      <div class="stat"><span class="stat-num" id="stat-projects">250</span><span class="stat-label">projects</span></div>
+      <div class="stat"><span class="stat-num" id="stat-stars">6.1k</span><span class="stat-label">stars combined</span></div>
+      <div class="stat"><span class="stat-num" id="stat-cats">12</span><span class="stat-label">categories</span></div>
+      <div class="stat"><span class="stat-num" id="stat-lic">MIT</span><span class="stat-label">most common license</span></div>
+      <p class="about-card-foot">Sorted by stars, refreshed monthly. Missing something? Open a pull request.</p>
+    </aside>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <svg class="brand-mark brand-mark--sm" viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="9" fill="url(#brandGrad2)"/>
+        <path d="M8 22V10l8 7 8-7v12" stroke="#08090c" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+        <defs><linearGradient id="brandGrad2" x1="0" y1="0" x2="32" y2="32"><stop offset="0" stop-color="#6ee7ff"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+      </svg>
+      <span>Awesome MyGo</span>
+    </div>
+    <p class="footer-note">A community list. MyGo is MIT licensed; each project keeps its own license.</p>
+    <div class="footer-links">
+      <a href="https://github.com/egoist/mygo" target="_blank" rel="noopener">MyGo</a>
+      <a href="https://github.com/agnogad/awesome-mygo" target="_blank" rel="noopener" id="repo-footer">This list</a>
+      <a href="#list">Back to list</a>
+    </div>
+  </div>
+</footer>
+
+<noscript>
+  <div class="wrap" style="padding:24px 0 40px;color:var(--muted);font-size:14px">
+    This page filters the list in the browser, so it needs JavaScript. The same list, with every project and description, is in the
+    <a href="https://github.com/agnogad/awesome-mygo#readme" style="color:var(--accent)">README</a>.
+  </div>
+</noscript>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
