@@ -7,6 +7,10 @@ build:
 data:
 	python3 scripts/enrich.py
 
+# Re-render the social preview image (needs chromium)
+og:
+	python3 scripts/make_og.py
+
 # Re-import the original research file into data/curated.json
 import:
 	python3 scripts/parse.py

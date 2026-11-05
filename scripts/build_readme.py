@@ -199,6 +199,16 @@ def main() -> None:
     (ROOT / "README.md").write_text("\n".join(lines), encoding="utf-8")
     print("README.md written:", len(lines), "lines")
 
+    # Keep the static fallbacks and social metadata on the site in sync.
+    index = ROOT / "site" / "index.html"
+    html = index.read_text(encoding="utf-8")
+    html = re.sub(r'content="\d+ open-source desktop apps', f'content="{total} open-source desktop apps', html)
+    html = re.sub(r'(id="hero-count">)\d+<', rf'\g<1>{total}<', html)
+    html = re.sub(r'(id="stat-projects">)\d+<', rf'\g<1>{total}<', html)
+    html = re.sub(r'(id="hero-stars">)[\d.]+k?<', rf'\g<1>{stars(total_stars)}<', html)
+    html = re.sub(r'(id="stat-stars">)[\d.]+k?<', rf'\g<1>{stars(total_stars)}<', html)
+    index.write_text(html, encoding="utf-8")
+
 
 if __name__ == "__main__":
     main()
