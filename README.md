@@ -5,13 +5,13 @@
 <p><strong>A curated list of desktop apps, tools and UI kits built with <a href="https://github.com/egoist/mygo">MyGo</a> — native Go UI, drawn on the GPU, no webview.</strong></p>
 
 <p><a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge-flat.svg"></a>
-<img alt="Projects" src="https://img.shields.io/badge/projects-372-00ADD8?style=flat-square">
+<img alt="Projects" src="https://img.shields.io/badge/projects-374-00ADD8?style=flat-square">
 <img alt="Stars" src="https://img.shields.io/badge/stars-10.8k-7c6cf6?style=flat-square">
 <img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-2ea44f?style=flat-square"></p>
 
 <p><strong><a href="https://awesome-mygo.surge.sh">Browse the searchable site →</a></strong></p>
 
-<p><a href="https://awesome-mygo.surge.sh"><img src="site/og.png" alt="Awesome MyGo — 372 native desktop apps built with Go" width="760"></a></p>
+<p><a href="https://awesome-mygo.surge.sh"><img src="site/og.png" alt="Awesome MyGo — 374 native desktop apps built with Go" width="760"></a></p>
 
 </div>
 
@@ -19,7 +19,7 @@
 
 MyGo draws its own widgets on the GPU — no HTML, no JavaScript, no webview — so an app ships as a single Go binary of a few megabytes that opens instantly and sips memory. It also runs web frontends in the platform webview when you want one, and can mix both in the same window.
 
-This list collects what people have built with it: **372 projects**, from terminals and coding agents to music players, Git clients, database GUIs and component libraries. Every entry links to a public repository, and star counts were refreshed from the GitHub API when this page was generated.
+This list collects what people have built with it: **374 projects**, from terminals and coding agents to music players, Git clients, database GUIs and component libraries. Every entry links to a public repository, and star counts were refreshed from the GitHub API when this page was generated.
 
 ## Contents
 
@@ -315,7 +315,7 @@ Six projects that show what the toolkit feels like in practice:
 
 ## Productivity, Menu Bar & Launchers
 
-<sub>Launchers, timers, scratchpads and the small utilities that live in your menu bar. · 39 projects</sub>
+<sub>Launchers, timers, scratchpads and the small utilities that live in your menu bar. · 40 projects</sub>
 
 - **[henryyu333/shelf](https://github.com/henryyu333/shelf)** — A native macOS app built entirely in Go with the MyGo framework. <sub>★ 103 · Apache-2.0</sub>
 - **[egoist/uma](https://github.com/egoist/uma)** — A native menubar app for Umami.is. <sub>★ 44 · [go.mod](https://raw.githubusercontent.com/egoist/uma/main/go.mod)</sub>
@@ -353,13 +353,14 @@ Six projects that show what the toolkit feels like in practice:
 - **[Star-Trails/countdowner](https://github.com/Star-Trails/countdowner)** — A native Windows desktop countdown widget built with Go and MyGo.
 - **[Uninen/floater](https://github.com/Uninen/floater)** — Opens URLs as simple chromeless windows. <sub>MIT · [go.mod](https://github.com/Uninen/floater/blob/bc9905ace9da30d9fd93e374c7e1c48f3ac99cbf/go.mod)</sub>
 - **[uxuz/keyboardlock](https://github.com/uxuz/keyboardlock)** — A tiny macOS app that locks the keyboard with one click so it can be cleaned. <sub>MIT · [go.mod](https://github.com/uxuz/keyboardlock/blob/0befa1eb5f06a1d1e75fd4738ad1f7fc0eb1032f/go.mod)</sub>
+- **[xiaozhu1337/my-quickstart-go](https://github.com/xiaozhu1337/my-quickstart-go)** — A native desktop launcher for Windows, macOS and Linux that organizes applications, files, folders, URLs and commands into searchable groups. <sub>[go.mod](https://raw.githubusercontent.com/xiaozhu1337/my-quickstart-go/main/go.mod)</sub>
 - **[xiyaowong/quick-scan](https://github.com/xiyaowong/quick-scan)** — Scanner software for eSCL multifunction printers. <sub>MIT · [go.mod](https://github.com/xiyaowong/quick-scan/blob/65c79554220ceaca552b398959eac3be896f9459/go.mod)</sub>
 - **[yinshuwei/mytools](https://github.com/yinshuwei/mytools)** — A developer toolbox built with mygo UI. <sub>MIT</sub>
 - **[zephyr-qu/kanso](https://github.com/zephyr-qu/kanso)** — A small personal kanban board: Go backend + React frontend + SQLite, single-port.
 
 ## System, Monitoring & Hardware
 
-<sub>System monitors, display and hardware control, desktop-shell experiments. · 22 projects</sub>
+<sub>System monitors, display and hardware control, desktop-shell experiments. · 23 projects</sub>
 
 - **[Binaryify/MonitorBar](https://github.com/Binaryify/MonitorBar)** — Monitor management from the macOS menu bar / Windows tray: switches inputs and adjusts volume over the Xiaomi HyperOS LAN API, no DDC/CI needed. <sub>★ 176 · MIT · [go.mod](https://raw.githubusercontent.com/Binaryify/MonitorBar/main/go.mod)</sub>
 - **[OUBIGFA/WinTray](https://github.com/OUBIGFA/WinTray)** — Starts any Windows program minimized to the tray or in the background. <sub>★ 93 · MIT · [go.mod](https://github.com/OUBIGFA/WinTray/blob/db9c545b4a7c0326c9f3978991ece72e3c55fe7d/go.mod)</sub>
@@ -383,6 +384,7 @@ Six projects that show what the toolkit feels like in practice:
 - **[VeinsureLee/BYR-Client](https://github.com/VeinsureLee/BYR-Client)** — A local desktop client for the BYR BBS forum; Go logic + MyGo native UI, Windows first.
 - **[villatothesea/DumpingGround](https://github.com/villatothesea/DumpingGround)** — Windows-native maintenance utility — process viewer, disk-usage analyzer, safe cleanup with recycle-bin and backup guarantees. <sub>MIT</sub>
 - **[wan-kong/apex-helper](https://github.com/wan-kong/apex-helper)** — Disables the keys that ruin your aim — yes Apex, that's you.
+- **[xiaozhu1337/my-vm](https://github.com/xiaozhu1337/my-vm)** — A native Windows Hyper-V virtual machine manager with branching full-state snapshots, enhanced desktop sessions, clipboard sharing and folder sharing. <sub>[go.mod](https://raw.githubusercontent.com/xiaozhu1337/my-vm/main/go.mod)</sub>
 
 ## Storage, Files & Sync
 
