@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-05",
- "count": 372,
+ "count": 374,
  "repoUrl": "https://github.com/agnogad/awesome-mygo",
  "site": "https://awesome-mygo.surge.sh",
  "categories": [
@@ -38,13 +38,13 @@
    "id": "productivity",
    "title": "Productivity, Menu Bar & Launchers",
    "blurb": "Launchers, timers, scratchpads and the small utilities that live in your menu bar.",
-   "count": 39
+   "count": 40
   },
   {
    "id": "system",
    "title": "System, Monitoring & Hardware",
    "blurb": "System monitors, display and hardware control, desktop-shell experiments.",
-   "count": 22
+   "count": 23
   },
   {
    "id": "files",
@@ -4207,6 +4207,22 @@
    "status": "ok"
   },
   {
+   "name": "xiaozhu1337/my-quickstart-go",
+   "url": "https://github.com/xiaozhu1337/my-quickstart-go",
+   "description": "A native desktop launcher for Windows, macOS and Linux that organizes applications, files, folders, URLs and commands into searchable groups.",
+   "stars": 0,
+   "license": null,
+   "homepage": null,
+   "topics": [],
+   "pushed": "",
+   "archived": false,
+   "evidence": "https://raw.githubusercontent.com/xiaozhu1337/my-quickstart-go/main/go.mod",
+   "unverified": false,
+   "linux": true,
+   "category": "productivity",
+   "status": "ok"
+  },
+  {
    "name": "xiyaowong/quick-scan",
    "url": "https://github.com/xiyaowong/quick-scan",
    "description": "Scanner software for eSCL multifunction printers.",
@@ -4669,6 +4685,22 @@
    "pushed": "2026-10-08",
    "archived": false,
    "evidence": null,
+   "unverified": false,
+   "linux": false,
+   "category": "system",
+   "status": "ok"
+  },
+  {
+   "name": "xiaozhu1337/my-vm",
+   "url": "https://github.com/xiaozhu1337/my-vm",
+   "description": "A native Windows Hyper-V virtual machine manager with branching full-state snapshots, enhanced desktop sessions, clipboard sharing and folder sharing.",
+   "stars": 0,
+   "license": null,
+   "homepage": null,
+   "topics": [],
+   "pushed": "",
+   "archived": false,
+   "evidence": "https://raw.githubusercontent.com/xiaozhu1337/my-vm/main/go.mod",
    "unverified": false,
    "linux": false,
    "category": "system",

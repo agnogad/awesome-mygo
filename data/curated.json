@@ -4523,6 +4523,30 @@
    "unverified": false,
    "linux": false,
    "category": "more"
+  },
+  {
+   "name": "xiaozhu1337/my-quickstart-go",
+   "url": "https://github.com/xiaozhu1337/my-quickstart-go",
+   "description": "A native desktop launcher for Windows, macOS and Linux that organizes applications, files, folders, URLs and commands into searchable groups.",
+   "stars": null,
+   "license": null,
+   "website": null,
+   "evidence": "https://raw.githubusercontent.com/xiaozhu1337/my-quickstart-go/main/go.mod",
+   "unverified": false,
+   "linux": true,
+   "category": "productivity"
+  },
+  {
+   "name": "xiaozhu1337/my-vm",
+   "url": "https://github.com/xiaozhu1337/my-vm",
+   "description": "A native Windows Hyper-V virtual machine manager with branching full-state snapshots, enhanced desktop sessions, clipboard sharing and folder sharing.",
+   "stars": null,
+   "license": null,
+   "website": null,
+   "evidence": "https://raw.githubusercontent.com/xiaozhu1337/my-vm/main/go.mod",
+   "unverified": false,
+   "linux": false,
+   "category": "system"
   }
  ]
 }
