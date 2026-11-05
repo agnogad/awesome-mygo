@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-02",
- "count": 250,
+ "count": 249,
  "repoUrl": "https://github.com/agnogad/awesome-mygo",
  "site": "https://awesome-mygo.surge.sh",
  "categories": [
@@ -14,7 +14,7 @@
    "id": "ai",
    "title": "AI, Agents & LLM Clients",
    "blurb": "Coding agents, chat clients, voice input, token trackers and agent workbenches.",
-   "count": 46
+   "count": 45
   },
   {
    "id": "dev",
@@ -333,7 +333,7 @@
   {
    "name": "nerv-base/mytoken",
    "url": "https://github.com/nerv-base/mytoken",
-   "description": "Where did all your tokens go? Local token & cost tracker for AI coding harnesses — Claude Code, Codex, Gemini CLI, opencode, Cline and more.",
+   "description": "Native MyGo desktop app and menu-bar panel that reads the session logs AI coding tools already write, prices every request at official API list price, and shows today's spend, running sessions and remaining plan quota, all on the local machine.",
    "stars": 7,
    "license": "MIT",
    "homepage": null,
@@ -347,30 +347,7 @@
    ],
    "pushed": "2026-10-29",
    "archived": false,
-   "evidence": null,
-   "unverified": false,
-   "linux": false,
-   "category": "ai",
-   "status": "ok"
-  },
-  {
-   "name": "zzstar101/mytoken",
-   "url": "https://github.com/zzstar101/mytoken",
-   "description": "Where did all your tokens go? Local token & cost tracker for AI coding harnesses — Claude Code, Codex, Gemini CLI, opencode, Cline and more.",
-   "stars": 7,
-   "license": "MIT",
-   "homepage": null,
-   "topics": [
-    "ai-tools",
-    "claude-code",
-    "cli",
-    "cline",
-    "codex",
-    "cost-tracking"
-   ],
-   "pushed": "2026-10-29",
-   "archived": false,
-   "evidence": "https://raw.githubusercontent.com/zzstar101/mytoken/main/go.mod",
+   "evidence": "https://raw.githubusercontent.com/nerv-base/mytoken/main/go.mod",
    "unverified": false,
    "linux": false,
    "category": "ai",

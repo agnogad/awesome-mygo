@@ -33,7 +33,6 @@ CATEGORY_FIX = {
     "egoist/lorca": "ai",
     "digiogithub/pando": "ai",
     "VaalaCat/openvaala": "ai",
-    "zzstar101/mytoken": "ai",
     "cheese-zj/openconnector": "ai",
     "ca-x/lark": "media",
     "welllog/otool": "dev",

@@ -5,7 +5,7 @@
 <p><strong>A curated list of desktop apps, tools and UI kits built with <a href="https://github.com/egoist/mygo">MyGo</a> — native Go UI, drawn on the GPU, no webview.</strong></p>
 
 <p><a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge-flat.svg"></a>
-<img alt="Projects" src="https://img.shields.io/badge/projects-250-00ADD8?style=flat-square">
+<img alt="Projects" src="https://img.shields.io/badge/projects-249-00ADD8?style=flat-square">
 <img alt="Stars" src="https://img.shields.io/badge/stars-6.1k-7c6cf6?style=flat-square">
 <img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-2ea44f?style=flat-square"></p>
 
@@ -19,7 +19,7 @@
 
 MyGo draws its own widgets on the GPU — no HTML, no JavaScript, no webview — so an app ships as a single Go binary of a few megabytes that opens instantly and sips memory. It also runs web frontends in the platform webview when you want one, and can mix both in the same window.
 
-This list collects what people have built with it: **250 projects**, from terminals and coding agents to music players, Git clients, database GUIs and component libraries. Every entry links to a public repository, and star counts were refreshed from the GitHub API when this page was generated.
+This list collects what people have built with it: **249 projects**, from terminals and coding agents to music players, Git clients, database GUIs and component libraries. Every entry links to a public repository, and star counts were refreshed from the GitHub API when this page was generated.
 
 ## Contents
 
@@ -106,7 +106,7 @@ Six projects that show what the toolkit feels like in practice:
 
 ## AI, Agents & LLM Clients
 
-<sub>Coding agents, chat clients, voice input, token trackers and agent workbenches. · 46 projects</sub>
+<sub>Coding agents, chat clients, voice input, token trackers and agent workbenches. · 45 projects</sub>
 
 - **[egoist/lorca](https://github.com/egoist/lorca)** — Imagine Telegram but single-user, with agents and end-to-end encryption — an alternative to Grok bot, Muse and Dots. <sub>★ 352 · GPL-3.0 · [go.mod](https://raw.githubusercontent.com/egoist/lorca/main/desktop/go.mod)</sub>
 - **[Licoy/Quosparr](https://github.com/Licoy/Quosparr)** — A menu-bar/tray app tracking Codex, Claude Code and Grok quotas, resets, API-equivalent cost and local sessions, with multi-account and relay switching. <sub>★ 316 · AGPL-3.0</sub>
@@ -117,8 +117,7 @@ Six projects that show what the toolkit feels like in practice:
 - **[lbr77/lody-mygo](https://github.com/lbr77/lody-mygo)** — A native desktop client for Lody, drawn on the GPU by MyGo's ui package with no web view: browser device-flow sign-in with Keychain-stored sessions; sessions grouped by machine and project with working/waiting/unread marks, pins, archive and forks; streaming Markdown with code highlighting, math and Mermaid; tool calls, thoughts, plans, diffs and subagents; @ mentions, $ skills and / shortcuts; scheduled tasks; plus a terminal, file explorer and Git worktrees from the local Lody daemon; a local-only mode and English/Simplified Chinese UI. <sub>★ 23 · AGPL-3.0</sub>
 - **[kkkk2323/droi](https://github.com/kkkk2323/droi)** — Native Mac, Windows and iPhone app for Factory Droid: your droid Sessions in one window and on your phone, built with Go (MyGo) and Expo. <sub>★ 13 · MIT · [go.mod](https://raw.githubusercontent.com/kkkk2323/droi/main/apps/native/go.mod)</sub>
 - **[VaalaCat/openvaala](https://github.com/VaalaCat/openvaala)** — A self-hostable, general-purpose agent system: one runtime for the agent loop, tools on the machines you choose, and the same live conversations in every client. <sub>★ 8 · MIT · [go.mod](https://raw.githubusercontent.com/VaalaCat/openvaala/main/go.mod)</sub>
-- **[nerv-base/mytoken](https://github.com/nerv-base/mytoken)** — Where did all your tokens go? Local token & cost tracker for AI coding harnesses — Claude Code, Codex, Gemini CLI, opencode, Cline and more. <sub>★ 7 · MIT</sub>
-- **[zzstar101/mytoken](https://github.com/zzstar101/mytoken)** — Where did all your tokens go? Local token & cost tracker for AI coding harnesses — Claude Code, Codex, Gemini CLI, opencode, Cline and more. <sub>★ 7 · MIT · [go.mod](https://raw.githubusercontent.com/zzstar101/mytoken/main/go.mod)</sub>
+- **[nerv-base/mytoken](https://github.com/nerv-base/mytoken)** — Native MyGo desktop app and menu-bar panel that reads the session logs AI coding tools already write, prices every request at official API list price, and shows today's spend, running sessions and remaining plan quota, all on the local machine. <sub>★ 7 · MIT · [go.mod](https://raw.githubusercontent.com/nerv-base/mytoken/main/go.mod)</sub>
 - **[sorrycc/CCGuanjia](https://github.com/sorrycc/CCGuanjia)** — A Mac app that looks after Claude Code: profiles of your own accounts, install, usage and cleanup. <sub>★ 5 · MIT</sub>
 - **[HycJack/mygo-agent](https://github.com/HycJack/mygo-agent)** — A Codex-style desktop AI coding agent built with MyGo — native GPU UI, built-in agent loop, skills and MCP. <sub>★ 3</sub>
 - **[horizon0514/ds-search](https://github.com/horizon0514/ds-search)** — A minimal macOS menu-bar search powered by the DeepSeek Search API, in MyGo native UI. <sub>★ 2 · MIT</sub>

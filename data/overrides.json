@@ -48,5 +48,6 @@
   "addidotlol/mycn": "shadcn/ui-style components for MyGo native UI, themed by calling mycn.Use each frame.",
   "oneo-me/neohm": "A macOS menu-bar app for controlling Home Assistant devices, with full air-conditioner controls. Built in Go with MyGo and Onevra.",
   "rayorole/orole-os-desktop": "Orole OS — a personal operating environment for Windows, built with MyGo, a Go daemon and React.",
-  "ca-x/nvflasher": "A MyGo desktop app for flashing and provisioning NVIDIA Jetson devices, with a Linux flashing backend."
+  "ca-x/nvflasher": "A MyGo desktop app for flashing and provisioning NVIDIA Jetson devices, with a Linux flashing backend.",
+  "nerv-base/mytoken": "Native MyGo desktop app and menu-bar panel that reads the session logs AI coding tools already write, prices every request at official API list price, and shows today's spend, running sessions and remaining plan quota, all on the local machine."
 }

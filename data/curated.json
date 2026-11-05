@@ -283,7 +283,7 @@
    "stars": null,
    "license": "MIT",
    "website": null,
-   "evidence": null,
+   "evidence": "https://raw.githubusercontent.com/nerv-base/mytoken/main/go.mod",
    "unverified": false,
    "linux": false,
    "category": "ai"
@@ -2768,18 +2768,6 @@
    "license": null,
    "website": null,
    "evidence": "https://raw.githubusercontent.com/ca-x/lark/main/desktop/go.mod",
-   "unverified": false,
-   "linux": false,
-   "category": "more"
-  },
-  {
-   "name": "zzstar101/mytoken",
-   "url": "https://github.com/zzstar101/mytoken",
-   "description": "",
-   "stars": null,
-   "license": null,
-   "website": null,
-   "evidence": "https://raw.githubusercontent.com/zzstar101/mytoken/main/go.mod",
    "unverified": false,
    "linux": false,
    "category": "more"
