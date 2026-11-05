@@ -56,7 +56,7 @@ def main() -> None:
     a("")
     a(f'<p><strong><a href="{SITE_URL}">Browse the searchable site →</a></strong></p>')
     a("")
-    a(f'<p><a href="{SITE_URL}"><img src="site/og.png" alt="Awesome MyGo — 250 native desktop apps built with Go" width="760"></a></p>')
+    a(f'<p><a href="{SITE_URL}"><img src="site/og.png" alt="Awesome MyGo — {total} native desktop apps built with Go" width="760"></a></p>')
     a("")
     a("</div>")
     a("")
@@ -153,7 +153,7 @@ def main() -> None:
         items = [r for r in repos if r["category"] == c["id"]]
         a(f"## {c['title']}")
         a("")
-        a(f"<sub>{c['blurb']} · {len(items)} projects</sub>")
+        a(f"<sub>{c['blurb']} · {len(items)} project{'s' if len(items) != 1 else ''}</sub>")
         a("")
         for r in items:
             meta = []
@@ -175,8 +175,9 @@ def main() -> None:
     a("- A project is listed when its repository depends on `github.com/egoist/mygo`, either directly or through a fork kept in the project.")
     a("- A `go.mod` link in the metadata opens the file that proves the dependency, at the path where it lives in that repository.")
     a("- The **unverified** marker means the source list could not confirm the dependency from a `go.mod` file at review time.")
-    a("- Star counts, licenses and last-push dates were read from the GitHub API on **2 November 2026** and are rounded.")
-    a("- Five entries from the original research returned `404` on GitHub and are not listed here: `yaffalhakim1/opencode-gui`, `my3rs/GoShell`, `diver80/avono-timebooking`, `oscs1024-pixel/MiJia`, `ychuo/copiggy`.")
+    a("- Star counts, licenses and last-push dates were read from the GitHub API on **5 November 2026** and are rounded.")
+    a("- Six entries from the research returned `404` on GitHub and are not listed here: `yaffalhakim1/opencode-gui`, `my3rs/GoShell`, `diver80/avono-timebooking`, `oscs1024-pixel/MiJia`, `ychuo/copiggy` and `gahulv/mygo-notes`.")
+    a("- Most listed repositories are open source, but not all: PudMusic is under PolyForm Noncommercial and vibe-cook under BUSL-1.1, both of which restrict production use. Check each project's license before reusing it.")
     a("- Closed-source apps are out of scope, with one exception noted in the source material: the author's own Pulse is not listed because its source is not public.")
     a("- This is a living list, not a ranking. Alphabetical order within a section would be just as fair; the current order is by stars, for browsing.")
     a("")

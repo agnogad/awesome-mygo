@@ -110,7 +110,7 @@ def main() -> None:
     live.sort(key=lambda r: (ORDER.get(r["category"], 99), -r["stars"], r["name"].lower()))
 
     payload = {
-        "generated": "2026-11-02",
+        "generated": "2026-11-05",
         "count": len(live),
         "repoUrl": config.get("repo", ""),
         "site": config.get("site", ""),
