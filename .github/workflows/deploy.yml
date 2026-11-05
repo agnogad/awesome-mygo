@@ -1,3 +1,4 @@
+# Build the list and publish site/ to surge.sh on every push to main.
 name: Deploy site
 
 on:
